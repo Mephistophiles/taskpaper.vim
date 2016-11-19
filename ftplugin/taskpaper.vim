@@ -14,7 +14,7 @@ set cpo&vim
 
 " Define a default date format
 if !exists('g:task_paper_date_format')
-    let g:task_paper_date_format = "%Y-%m-%d"
+    let g:task_paper_date_format = "%H-%M-%S %d-%m-%Y"
 endif
 
 " Define a default archive project name
